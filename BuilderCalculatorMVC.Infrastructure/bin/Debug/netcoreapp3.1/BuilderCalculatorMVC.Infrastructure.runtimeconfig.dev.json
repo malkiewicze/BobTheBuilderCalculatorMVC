@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\malki\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\malki\\.nuget\\packages"
+    ]
+  }
+}
