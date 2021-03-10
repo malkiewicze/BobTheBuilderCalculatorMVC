@@ -6,19 +6,17 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Infrastructure.EntityConfigurations
 {
-    public class AddressConfiguration : BaseEntityConfiguration<Address>
+    public class WorkConfiguration :BaseEntityConfiguration<Work>
     {
-
-        public override void Configure(EntityTypeBuilder<Address> builder)
+        public override void Configure(EntityTypeBuilder<Work> builder)
         {
             base.Configure(builder);
-
-            builder.Property(a => a.City)
+            builder.Property(a => a.Name)
                 .IsRequired();
 
-            builder.HasOne(a => a.Client)
-                .WithMany(a => a.Addresses)
-                .HasForeignKey(a => a.ClientId);
+            builder.HasMany(a => a.Rooms)
+                .WithMany(a => a.Works);
+
         }
     }
 }

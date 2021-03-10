@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Infrastructure.EntityConfigurations
 {
-    class ContactDetailConfiguration : BaseEntityConfiguration<ContactDetail>
+    public class ContactDetailConfiguration : BaseEntityConfiguration<ContactDetail>
     {
         public override void Configure(EntityTypeBuilder<ContactDetail> builder)
         {

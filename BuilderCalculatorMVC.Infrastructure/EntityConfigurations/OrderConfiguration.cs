@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Infrastructure.EntityConfigurations
 {
-    class OrderConfiguration :BaseEntityConfiguration<Order>
+    public class OrderConfiguration : BaseEntityConfiguration<Order>
     {
         public override void Configure(EntityTypeBuilder<Order> builder)
         {
@@ -18,7 +18,7 @@ namespace BuilderCalculatorMVC.Infrastructure.EntityConfigurations
 
             builder.HasMany(a => a.Rooms)
                 .WithMany(a => a.Orders);
-                
+
         }
     }
 }
