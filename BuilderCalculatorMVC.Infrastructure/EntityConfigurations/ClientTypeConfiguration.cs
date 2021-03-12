@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Infrastructure.EntityConfigurations
 {
-    public class ClientTypeConfiguration : BaseEntityConfiguration<ClientType>
+    class ClientTypeConfiguration : BaseEntityConfiguration<ClientType>
     {
         public override void Configure(EntityTypeBuilder<ClientType> builder)
         {

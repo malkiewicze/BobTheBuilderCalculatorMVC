@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Infrastructure.EntityConfigurations
 {
-    public class BaseEntityConfiguration<T> : IEntityTypeConfiguration<T> where T : BaseEntity
+    class BaseEntityConfiguration<T> : IEntityTypeConfiguration<T> where T : BaseEntity
     {
         public virtual void Configure(EntityTypeBuilder<T> builder)
         {
