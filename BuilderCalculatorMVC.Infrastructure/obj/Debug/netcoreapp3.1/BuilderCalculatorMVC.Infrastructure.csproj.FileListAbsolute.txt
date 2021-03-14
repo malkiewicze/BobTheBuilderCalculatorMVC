@@ -1,15 +1,4 @@
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Domain.dll
 C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.csprojAssemblyReference.cache
 C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.AssemblyInfo.cs
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.deps.json
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.runtimeconfig.json
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.runtimeconfig.dev.json
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.dll
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.pdb
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Domain.pdb
 C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.csproj.CopyComplete
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.dll
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.pdb
-C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Infrastructure\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Infrastructure.genruntimeconfig.cache
