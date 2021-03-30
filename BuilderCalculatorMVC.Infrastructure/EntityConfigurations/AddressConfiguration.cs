@@ -1,4 +1,4 @@
-﻿using BobTheBuilderCalculatorMVC.Web.Models;
+﻿using BuilderCalculatorMVC.Domain.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;

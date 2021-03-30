@@ -1,6 +1,6 @@
 ﻿using BuilderCalculatorMVC.Domain.Model;
 
-namespace BobTheBuilderCalculatorMVC.Web.Models
+namespace BuilderCalculatorMVC.Domain.Models
 {
     public class Address :BaseEntity
     {

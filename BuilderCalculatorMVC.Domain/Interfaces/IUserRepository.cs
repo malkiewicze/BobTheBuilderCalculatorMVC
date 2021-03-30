@@ -1,4 +1,4 @@
-﻿using BuilderCalculatorMVC.Domain.Model;
+﻿using BuilderCalculatorMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;

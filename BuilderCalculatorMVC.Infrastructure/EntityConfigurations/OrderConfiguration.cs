@@ -1,4 +1,4 @@
-﻿using BobTheBuilderCalculatorMVC.Web.Models;
+﻿using BuilderCalculatorMVC.Domain.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -15,9 +15,6 @@ namespace BuilderCalculatorMVC.Infrastructure.EntityConfigurations
             builder.HasOne(a => a.Client)
                 .WithMany(a => a.Orders)
                 .HasForeignKey(a => a.ClientId);
-
-            builder.HasMany(a => a.Rooms)
-                .WithMany(a => a.Orders);
                 
         }
     }

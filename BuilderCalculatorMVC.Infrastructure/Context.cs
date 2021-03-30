@@ -1,4 +1,4 @@
-﻿using BobTheBuilderCalculatorMVC.Web.Models;
+﻿using BuilderCalculatorMVC.Domain.Models;
 using BuilderCalculatorMVC.Domain.Model;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -22,8 +22,7 @@ namespace BuilderCalculatorMVC.Infrastructure
         public DbSet<Work> Works { get; set; }
         public DbSet<BaseEntity> BaseEntities { get; set; }
 
-
-        public Context(DbContextOptions options) : base(options)
+        public Context(DbContextOptions<Context> options) : base(options)
         {
 
         }
@@ -42,7 +41,29 @@ namespace BuilderCalculatorMVC.Infrastructure
             .WithMany(z => z.Addresses)
             .HasForeignKey(it => it.ClientId);
 
+            builder.Entity<OrderRoom>().HasKey(or => new { or.OrderId, or.RoomId });
 
+            builder.Entity<OrderRoom>()
+                .HasOne<Order>(or => or.Order)
+                .WithMany(o => o.OrderRooms)
+                .HasForeignKey(or => or.OrderId);
+
+            builder.Entity<OrderRoom>()
+                .HasOne<Room>(or => or.Room)
+                .WithMany(o => o.OrderRooms)
+                .HasForeignKey(or => or.RoomId);
+
+            builder.Entity<RoomWork>().HasKey(or => new { or.RoomId, or.WorkId });
+
+            builder.Entity<RoomWork>()
+                .HasOne<Work>(or => or.Work)
+                .WithMany(o => o.RoomWorks)
+                .HasForeignKey(or => or.WorkId);
+
+            builder.Entity<RoomWork>()
+                .HasOne<Room>(or => or.Room)
+                .WithMany(o => o.RoomWorks)
+                .HasForeignKey(or => or.RoomId);
         }
     }
 }

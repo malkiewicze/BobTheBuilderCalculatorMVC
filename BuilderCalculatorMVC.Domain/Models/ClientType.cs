@@ -1,7 +1,7 @@
 ﻿using BuilderCalculatorMVC.Domain.Model;
 using System.Collections.Generic;
 
-namespace BobTheBuilderCalculatorMVC.Web.Models
+namespace BuilderCalculatorMVC.Domain.Models
 {
     public class ClientType :BaseEntity
     {
