@@ -10,3 +10,15 @@ C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMV
 C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.csproj.CopyComplete
 C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.dll
 C:\Users\malki\source\repos\BobTheBuilderCalculatorMVC\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.pdb
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.deps.json
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.dll
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.pdb
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Domain.dll
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\bin\Debug\netcoreapp3.1\BuilderCalculatorMVC.Domain.pdb
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.csprojAssemblyReference.cache
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.AssemblyInfoInputs.cache
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.AssemblyInfo.cs
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.csproj.CopyComplete
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.dll
+C:\Users\pl-kajetan\Documents\BobTheBuilderCalculatorMVC\BuilderCalculatorMVC.Application\obj\Debug\netcoreapp3.1\BuilderCalculatorMVC.Application.pdb

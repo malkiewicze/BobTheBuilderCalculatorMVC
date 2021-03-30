@@ -1,9 +1,9 @@
-﻿using BobTheBuilderCalculatorMVC.Web.Models;
+﻿using BuilderCalculatorMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuilderCalculatorMVC.Domain.Model
+namespace BuilderCalculatorMVC.Domain.Models
 {
     public class AppUser :BaseEntity
     {

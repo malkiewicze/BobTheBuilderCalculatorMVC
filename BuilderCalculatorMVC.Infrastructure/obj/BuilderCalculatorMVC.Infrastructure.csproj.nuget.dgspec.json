@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj": {}
+    "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj": {
+    "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj",
         "projectName": "BuilderCalculatorMVC.Domain",
-        "projectPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj",
-        "packagesPath": "C:\\Users\\malki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\obj\\",
+        "projectPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj",
+        "packagesPath": "C:\\Users\\pl-kajetan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pl-kajetan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,21 +57,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj": {
+    "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj",
         "projectName": "BuilderCalculatorMVC.Infrastructure",
-        "projectPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\malki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\pl-kajetan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pl-kajetan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,9 +86,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj": {
-                "projectPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj"
+              "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj": {
+                "projectPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj"
               }
             }
           }
@@ -93,12 +102,19 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.13, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.13, )"
             },
@@ -128,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

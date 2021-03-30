@@ -1,4 +1,4 @@
-﻿using BobTheBuilderCalculatorMVC.Web.Models;
+﻿using BuilderCalculatorMVC.Domain.Models;
 using BuilderCalculatorMVC.Domain.Interface;
 using BuilderCalculatorMVC.Domain.Model;
 using Microsoft.EntityFrameworkCore;

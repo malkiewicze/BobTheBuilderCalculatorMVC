@@ -1,10 +1,11 @@
 ﻿using BuilderCalculatorMVC.Domain.Model;
+using BuilderCalculatorMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BobTheBuilderCalculatorMVC.Web.Models
+namespace BuilderCalculatorMVC.Domain.Models
 {
     public class Room : BaseEntity
     {
@@ -12,8 +13,8 @@ namespace BobTheBuilderCalculatorMVC.Web.Models
         public double Length { get; set; }
         public double Width { get; set; }
         public double Height { get; set; }
-        public ICollection<Work> Works { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        public ICollection<RoomWork> RoomWorks { get; set; }
+        public ICollection<OrderRoom> OrderRooms { get; set; }
         public double Cost { get; set; }
     }
 }

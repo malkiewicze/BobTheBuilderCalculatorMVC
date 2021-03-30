@@ -1,4 +1,5 @@
 ﻿using BuilderCalculatorMVC.Domain.Model;
+using BuilderCalculatorMVC.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;

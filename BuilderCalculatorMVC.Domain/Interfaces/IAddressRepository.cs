@@ -1,4 +1,4 @@
-﻿using BobTheBuilderCalculatorMVC.Web.Models;
+﻿using BuilderCalculatorMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
