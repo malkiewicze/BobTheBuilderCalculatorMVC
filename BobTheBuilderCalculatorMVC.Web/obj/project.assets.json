@@ -2962,11 +2962,12 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3000,11 +3001,12 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5654,11 +5656,12 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5752,23 +5755,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pl-kajetan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\malki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC.Web\\BobTheBuilderCalculatorMVC.Web.csproj",
+      "projectUniqueName": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC.Web\\BobTheBuilderCalculatorMVC.Web.csproj",
       "projectName": "BobTheBuilderCalculatorMVC.Web",
-      "projectPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC.Web\\BobTheBuilderCalculatorMVC.Web.csproj",
-      "packagesPath": "C:\\Users\\pl-kajetan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC.Web\\obj\\",
+      "projectPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC.Web\\BobTheBuilderCalculatorMVC.Web.csproj",
+      "packagesPath": "C:\\Users\\malki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC.Web\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\pl-kajetan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\malki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5780,13 +5779,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Application\\BuilderCalculatorMVC.Application.csproj": {
-              "projectPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Application\\BuilderCalculatorMVC.Application.csproj"
+            "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Application\\BuilderCalculatorMVC.Application.csproj": {
+              "projectPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Application\\BuilderCalculatorMVC.Application.csproj"
             },
-            "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj"
+            "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Infrastructure\\BuilderCalculatorMVC.Infrastructure.csproj"
             }
           }
         }
@@ -5799,7 +5797,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -5848,7 +5845,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pUAZ4nTEzXydHYpY35UfG5/++/Ohmsdo3J8jk7H1f/MwUObWtXMNsqZxNrcJuO0mIiERvmjEkpXvR6yAP915lA==",
+  "dgSpecHash": "W2OEQNccPB1WUTx7iBM6fuChRHPm+mFMDwndZUISZc2GsFWMSL713V+z0Gq5tHySfY4ZNiSeOGSCKBo6X2Sj0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pl-kajetan\\Documents\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj",
+  "projectFilePath": "C:\\Users\\malki\\source\\repos\\BobTheBuilderCalculatorMVC\\BobTheBuilderCalculatorMVC\\BuilderCalculatorMVC.Domain\\BuilderCalculatorMVC.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
