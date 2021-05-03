@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuilderCalculatorMVC.Domain.Interface
+namespace BuilderCalculatorMVC.Domain.Interfaces
 {
     interface IRoomRepository : IEntityRepository<Room>
     {

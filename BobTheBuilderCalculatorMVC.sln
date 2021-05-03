@@ -15,13 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8DB29B68
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{44E370B8-7030-4316-AFFE-4A815566B430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderCalculatorMVC.Application", "BuilderCalculatorMVC.Application\BuilderCalculatorMVC.Application.csproj", "{5FF19B59-EF57-4EEE-9A99-66FDA7441313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderCalculatorMVC.Application", "BuilderCalculatorMVC.Application\BuilderCalculatorMVC.Application.csproj", "{5FF19B59-EF57-4EEE-9A99-66FDA7441313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderCalculatorMVC.Domain", "BuilderCalculatorMVC.Domain\BuilderCalculatorMVC.Domain.csproj", "{386F6643-2A9E-4C62-B1FE-C65A163DBC7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderCalculatorMVC.Domain", "BuilderCalculatorMVC.Domain\BuilderCalculatorMVC.Domain.csproj", "{386F6643-2A9E-4C62-B1FE-C65A163DBC7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderCalculatorMVC.Infrastructure", "BuilderCalculatorMVC.Infrastructure\BuilderCalculatorMVC.Infrastructure.csproj", "{3DD187C4-D797-4C92-B7AA-D5C1FD1AF520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderCalculatorMVC.Infrastructure", "BuilderCalculatorMVC.Infrastructure\BuilderCalculatorMVC.Infrastructure.csproj", "{3DD187C4-D797-4C92-B7AA-D5C1FD1AF520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderCalculatorMVC.Tests", "BuilderCalculatorMVC.Tests\BuilderCalculatorMVC.Tests.csproj", "{A7559603-B37E-47C6-B20C-161ED63F287C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderCalculatorMVC.Tests", "BuilderCalculatorMVC.Tests\BuilderCalculatorMVC.Tests.csproj", "{A7559603-B37E-47C6-B20C-161ED63F287C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

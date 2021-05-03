@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Domain.Models
 {
-    public class RoomWork
+    public class RoomWork :BaseEntity
     {
         public int RoomId { get; set; }
         public Room Room { get; set; }

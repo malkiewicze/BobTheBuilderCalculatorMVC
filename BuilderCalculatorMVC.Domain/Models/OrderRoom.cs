@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Domain.Models
 {
-    public class OrderRoom
+    public class OrderRoom : BaseEntity
     {
         public int OrderId { get; set; }
         public Order Order { get; set; }

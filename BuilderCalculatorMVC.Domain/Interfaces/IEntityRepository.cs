@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BuilderCalculatorMVC.Domain.Interface
+namespace BuilderCalculatorMVC.Domain.Interfaces
 {
     public interface IEntityRepository<T>
     {

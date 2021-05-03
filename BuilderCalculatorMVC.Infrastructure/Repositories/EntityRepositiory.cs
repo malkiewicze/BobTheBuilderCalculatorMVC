@@ -1,12 +1,11 @@
 ﻿using BuilderCalculatorMVC.Domain.Models;
-using BuilderCalculatorMVC.Domain.Interface;
 using BuilderCalculatorMVC.Domain.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using BuilderCalculatorMVC.Domain.Interfaces;
 
 namespace BuilderCalculatorMVC.Infrastructure.Repositories
 {

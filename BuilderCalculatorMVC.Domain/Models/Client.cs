@@ -9,8 +9,8 @@ namespace BuilderCalculatorMVC.Domain.Models
     public class Client : BaseEntity
     {
         public int ClientTypeId { get; set; }
-
         public virtual ClientType ClientType { get; set; }
+        public bool IsActive { get; set; }
         public string? CompanyName { get; set; }
         public string? NIP { get; set; }
         public string Name { get; set; }
