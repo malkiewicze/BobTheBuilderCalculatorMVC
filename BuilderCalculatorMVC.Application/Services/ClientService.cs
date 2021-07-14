@@ -4,110 +4,89 @@ using BuilderCalculatorMVC.Application.ViewModels;
 using BuilderCalculatorMVC.Application.ViewModels.Clients;
 using System;
 using System.Collections.Generic;
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using System.Linq;
+using BuilderCalculatorMVC.Domain.Models;
 
 namespace BuilderCalculatorMVC.Application.Services
 {
     public class ClientService : IClientService
     {
         private readonly IClientRepository _clientRepo;
+        //private readonly IAddressRepository _addressRepo;
+        private readonly IMapper _mapper;
+        
 
-        #region AddCLient
+        public ClientService(IClientRepository clientRepo,/* IAddressRepository addressRepo,*/ IMapper mapper)
+        {
+            _clientRepo = clientRepo;
+           // _addressRepo = addressRepo;
+            _mapper = mapper;
+        }
+
         public int AddClient(NewClientVm client)
         {
-            throw new NotImplementedException();
+            Client newClient = new Client();
+            _mapper.Map(client, newClient);//metoda Map jest używana przy pojedynczym elemencie, inaczej niż ProjectTo
+            _clientRepo.AddNew(newClient);
+            return newClient.Id;
         }
-        #endregion
 
-        #region GetAllActiveClients
+        public Address AddNewAddress(ClientsAddressVm address, int clientId)
+        {
+            Address newAddress = new Address();
+            var client = _clientRepo.GetById(clientId);
+            var clientsAddress = _mapper.Map(address, newAddress);
+            client.Addresses.Add(clientsAddress);
+            return clientsAddress;
+        }
+
         public ListClientForListVm GetAllClientsForList()
         {
-            var clients = _clientRepo.GetAllActiveClients();
-            ListClientForListVm result = new ListClientForListVm();
-            result.Clients = new List<ClientForListVm>();
-            foreach (var client in clients)
+            var clients = _clientRepo.GetAllActiveClients()
+                .ProjectTo<ClientForListVm>(_mapper.ConfigurationProvider).ToList();// ProjectTo używany przy IQuerable i kolekcjach
+            var clientsList = new ListClientForListVm()
             {
-                var clientVm = new ClientForListVm()
-                {
-                    Id = client.Id,
-                    Name = client.Name,
-                    Surname = client.Surname,
-                };
-                result.Clients.Add(clientVm);
-            }
-            result.Count = result.Clients.Count;
-            return result;
-        }
-        #endregion
+                Clients = clients,
+                Count = clients.Count
 
-        #region GetClientDetails
+            };
+            return clientsList;
+        }
+
         public ClientDetailsVm GetClientDetails(int clientId)
         {
-            var client = _clientRepo.GetEntityById(clientId);
-            var clientVm = new ClientDetailsVm();
-            clientVm.Id = client.Id;
-            clientVm.Name = client.Name;
-            clientVm.Surname = client.Surname;
-            clientVm.CompanyName = client.CompanyName;
-            clientVm.NIP = client.NIP;
-            clientVm.Addresses = new List<AddressForListVm>();
-            clientVm.Emails = new List<ContactDetailsForListVm>();
-            clientVm.PhoneNumbers = new List<ContactDetailsForListVm>();
-            clientVm.Orders = new List<OrderForListVm>();
-
-            foreach (var address in client.Addresses)
-            {
-                var add = new AddressForListVm()
-                {
-                    City = address.City,
-                    Street = address.Street,
-                    BuildingNumber = address.BuildingNumber,
-                    FlatNumber = address.FlatNumber,
-                    ZIPCode = address.ZIPCode
-                };
-                clientVm.Addresses.Add(add);
-            }
-
-            foreach (var email in client.ContactDetails)
-            {
-                if (client.ClientType.Name == "email")
-                {
-                    var add = new ContactDetailsForListVm()
-                    {
-                        ContactType = email.ContactType,
-                        ContactInformation = email.ContactInformation
-                    };
-                    clientVm.Emails.Add(add);
-                }
-            }
-
-            foreach (var phoneNumber in client.ContactDetails)
-            {
-                if (client.ClientType.Name == "phonenUmber")
-                {
-                    var add = new ContactDetailsForListVm()
-                    {
-                        ContactType = phoneNumber.ContactType,
-                        ContactInformation = phoneNumber.ContactInformation
-                    };
-                    clientVm.PhoneNumbers.Add(add);
-                }
-            }
-
-            foreach (var order in client.Orders)
-            {
-                var add = new OrderForListVm()
-                {
-                    Id = order.Id,
-                    StartDate = order.StartDate,
-                    EndDate = order.EndDate,
-                    Duration = order.Duration
-                };
-                clientVm.Orders.Add(add);
-            }
+            var client = _clientRepo.GetById(clientId);
+            var clientVm = _mapper.Map<ClientDetailsVm>(client); //metoda Map jest używana przy pojedynczym elemencie, inaczej niż ProjectTo
 
             return clientVm;
         }
-        #endregion
+
+        public ClientsAddressForListVm GetClientsAddress(int clientId)
+        {
+            var client = _clientRepo.GetById(clientId);
+            var clientsAddresses = _mapper.Map<ClientsAddressForListVm>(client);
+            return clientsAddresses;
+
+        }
+
+        public ClientsContactDetailsForListVm GetClientsContactDetailsForList(int clientId)
+        {
+            var client = _clientRepo.GetById(clientId);
+            var clientsContacts = _mapper.Map<ClientsContactDetailsForListVm>(client);
+            return clientsContacts;
+        }
+
+        public ClientsOrderForListVm GetClientsOrderForList(int clientId)
+        {
+            var client = _clientRepo.GetById(clientId);
+            var clientsOrders = _mapper.Map<ClientsOrderForListVm>(client);
+            return clientsOrders;
+        }
+
     }
+
 }
+
 

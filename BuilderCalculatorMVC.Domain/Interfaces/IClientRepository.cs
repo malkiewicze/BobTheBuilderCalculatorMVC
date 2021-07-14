@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Domain.Interfaces
 {
-   public interface IClientRepository : IEntityRepository<Client>
+    public interface IClientRepository : IEntityRepository<Client>
     {
         IQueryable<Client> GetAllActiveClients();
     }

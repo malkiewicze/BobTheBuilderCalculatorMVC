@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Domain.Interfaces
 {
-    interface IAddressRepository :IEntityRepository<Address>
+    public interface IAddressRepository :IEntityRepository<Address>
     {
     }
 }

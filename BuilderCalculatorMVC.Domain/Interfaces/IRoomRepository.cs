@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Domain.Interfaces
 {
-    interface IRoomRepository : IEntityRepository<Room>
+    public interface IRoomRepository : IEntityRepository<Room>
     {
     }
 }

@@ -1,11 +1,13 @@
 ﻿using BuilderCalculatorMVC.Domain.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BuilderCalculatorMVC.Domain.Interfaces
 {
-    interface IOrderRepository : IEntityRepository<Order>
+    public interface IOrderRepository : IEntityRepository<Order>
     {
+    
     }
 }

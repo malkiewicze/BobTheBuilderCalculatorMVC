@@ -11,7 +11,7 @@ namespace BuilderCalculatorMVC.Domain.Models
         public int CreatedByAppUserId { get; set; }
         public DateTime CreatedDateTime { get; set; }
         public AppUser CreatedByAppUser { get; set; }
-        public AppUser ModifiedByAppUser { get; set; }
-        public DateTime ModifiedDateTime { get; set; }
+        public AppUser? ModifiedByAppUser { get; set; }
+        public DateTime? ModifiedDateTime { get; set; }
     }
 }

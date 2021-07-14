@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BuilderCalculatorMVC.Domain.Interfaces
 {
-    interface IWorkRepository : IEntityRepository<Work>
+    public interface IWorkRepository : IEntityRepository<Work>
     {
     }
 }
