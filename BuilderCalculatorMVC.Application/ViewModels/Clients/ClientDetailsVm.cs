@@ -26,8 +26,6 @@ namespace BuilderCalculatorMVC.Application.ViewModels.Clients
                 .ForMember(dst => dst.PhoneNumbers, opt => opt.MapFrom(src => src.ContactDetails.Select(c => c.ContactType.Name == "PhoneNumber")))
                 .ForMember(dst => dst.Emails, opt => opt.MapFrom(src => src.ContactDetails.Select(c => c.ContactType.Name == "Emails")))
                 .ForMember(dst => dst.Orders, opt => opt.MapFrom(src => src.Orders));
-
-
         }
     }
 }
