@@ -16,21 +16,21 @@ namespace BuilderCalculatorMVC.Application.Services
         private readonly IClientRepository _clientRepo;
         //private readonly IAddressRepository _addressRepo;
         private readonly IMapper _mapper;
-        
+
 
         public ClientService(IClientRepository clientRepo,/* IAddressRepository addressRepo,*/ IMapper mapper)
         {
             _clientRepo = clientRepo;
-           // _addressRepo = addressRepo;
+            // _addressRepo = addressRepo;
             _mapper = mapper;
         }
 
         public int AddClient(NewClientVm client)
         {
-            Client newClient = new Client();
-            _mapper.Map(client, newClient);//metoda Map jest używana przy pojedynczym elemencie, inaczej niż ProjectTo
+            //Client newClient = new Client();
+            var newClient = _mapper.Map<Client>(client);//metoda Map jest używana przy pojedynczym elemencie, inaczej niż ProjectTo
             _clientRepo.AddNew(newClient);
-            return newClient.Id;
+            return newClient.Id; //rzuca błędem??
         }
 
         public Address AddNewAddress(ClientsAddressVm address, int clientId)
@@ -42,13 +42,20 @@ namespace BuilderCalculatorMVC.Application.Services
             return clientsAddress;
         }
 
-        public ListClientForListVm GetAllClientsForList()
+        public ListClientForListVm GetAllClientsForList(int pageSize, int pageNo, string searchString)
         {
-            var clients = _clientRepo.GetAllActiveClients()
+            var clients = _clientRepo.GetAllActiveClients().Where(p => p.Name.StartsWith(searchString))
                 .ProjectTo<ClientForListVm>(_mapper.ConfigurationProvider).ToList();// ProjectTo używany przy IQuerable i kolekcjach
+
+            //określenie ile rekordów pokazać na jednej stronie
+            var clientsToShow = clients.Skip(pageSize * (pageNo - 1)).Take(pageSize).ToList();
+
             var clientsList = new ListClientForListVm()
             {
                 Clients = clients,
+                CurrentPage = pageNo,
+                PageSize = pageSize,
+                SearchString = searchString,
                 Count = clients.Count
 
             };

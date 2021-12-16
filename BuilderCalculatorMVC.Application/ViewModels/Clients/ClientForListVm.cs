@@ -19,7 +19,7 @@ namespace BuilderCalculatorMVC.Application.ViewModels
         public void Mapping(Profile profile)
         {
             profile.CreateMap<BuilderCalculatorMVC.Domain.Models.Client, ClientForListVm>()
-               .ForMember(dst=>dst.City, opt=> opt.MapFrom(src => src.Addresses.Select(c => c.City)));
+               .ForMember(dst => dst.City, opt => opt.MapFrom(src => src.Addresses.FirstOrDefault().City));
         }
     }
 }

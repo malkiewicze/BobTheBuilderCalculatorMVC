@@ -16,7 +16,7 @@ namespace BuilderCalculatorMVC.Application.ViewModels.Clients
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<BuilderCalculatorMVC.Domain.Models.Client, NewClientVm>();//.ReverseMap();
+            profile.CreateMap<NewClientVm, BuilderCalculatorMVC.Domain.Models.Client>();
 
         }
     }

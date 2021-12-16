@@ -9,7 +9,7 @@ namespace BuilderCalculatorMVC.Application.Interfaces
 {
     public interface IClientService
     {
-        ListClientForListVm GetAllClientsForList();
+        ListClientForListVm GetAllClientsForList(int pageSize, int pageNo, string searchString);
         int AddClient(NewClientVm client);
         ClientDetailsVm GetClientDetails(int clientId);
         ClientsAddressForListVm GetClientsAddress(int clientId);

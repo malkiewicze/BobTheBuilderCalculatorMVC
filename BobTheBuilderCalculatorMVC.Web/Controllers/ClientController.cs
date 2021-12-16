@@ -15,18 +15,32 @@ namespace BobTheBuilderCalculatorMVC.Web.Controllers
         {
             _clientService = clientService;
         }
+        [HttpGet]
         public IActionResult Index()
         {
-            var allClientsModel = _clientService.GetAllClientsForList();
+            var allClientsModel = _clientService.GetAllClientsForList(2,1, "");
+            return View(allClientsModel);
+        }
+        [HttpPost]
+        public IActionResult Index(int pageSize, int? pageNo, string searchString)
+        {
+            if( !pageNo.HasValue)
+            {
+                pageNo = 1;
+            }
+
+            if(searchString is null)
+            {
+                searchString = String.Empty;
+            }
+            var allClientsModel = _clientService.GetAllClientsForList(pageSize, pageNo.Value, searchString);
             return View(allClientsModel);
         }
 
         [HttpGet] //pusty formularz
         public IActionResult AddClient()
         {
-            var clientModel = new NewClientVm();
-            _clientService.AddClient(clientModel);
-            return View(clientModel);
+            return View(new NewClientVm());
         }
 
         [HttpPost]

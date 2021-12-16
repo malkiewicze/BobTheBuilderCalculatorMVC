@@ -12,10 +12,11 @@ namespace BuilderCalculatorMVC.Infrastructure.Repositories
         {
             _context = context;
         }
-        public void AddNew(T entity)
+        public int AddNew(T entity)
         {
             _context.Add(entity);
             _context.SaveChanges();
+            return entity.Id;
         }
 
         public IQueryable<T> GetAll()

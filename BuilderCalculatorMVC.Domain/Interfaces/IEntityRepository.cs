@@ -10,7 +10,7 @@ namespace BuilderCalculatorMVC.Domain.Interfaces
     {
         IQueryable<T> GetAll();
         T GetById(int id);
-        void AddNew(T entity);
+        int AddNew(T entity);
         void Delete(T entity);
         void Update(int id, T entity);
     }
